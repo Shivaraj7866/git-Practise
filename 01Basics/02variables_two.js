@@ -14,10 +14,8 @@ console.log(email)
 
 //Interpolation
 console.log(`
-
     user is : ${fullName}
     with uid : ${uid}
     and is email is : ${email}
     also with password : ${password}
-
 `)  
