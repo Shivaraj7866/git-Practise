@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .main-hover{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15%;
+        }
+
+        .color{
+            height: 50px;
+            width: 100px;
+            border: solid 2px black;
+            margin-right: 2px;
+        }
+
+        .center{
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0px 0px 15px black;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="main-hover">
+        <div class="color red" style="background-color: red; box-shadow: 0px 0px 20px black;"></div>
+        <div class="color blue" style="background-color: blue; box-shadow: 0px 0px 20px yellow;"></div>
+        <div class="color violet" style="background-color: violet; box-shadow: 0px 0px 20px greenyellow;"></div>
+        <div class="color yellow" style="background-color: yellow; box-shadow: 0px 0px 20px red;"></div>
+        <div class="color green" style="background-color: green; box-shadow: 0px 0px 20px orange;"></div>
+    </div>
+    <div class="center"></div>
+
+
+    <script src="./cvaluesInJs.js"></script>
+</body>
+</html>
